@@ -8,9 +8,9 @@ A React-based karaoke system that uses YouTube videos to display lyrics, manage 
 ## Tasks
 
 ### 1. **Project Setup**
-- [*] Set up the React project.
-- [*] Install necessary dependencies (e.g., `axios`, `react-router-dom`, `redux` for state management, etc.).
-- [*] Initialize Git repository and link to GitHub.
+- [x] Set up the React project.
+- [x] Install necessary dependencies (e.g., `axios`, `react-router-dom`, `redux` for state management, etc.).
+- [x] Initialize Git repository and link to GitHub.
 
 ---
 
