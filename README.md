@@ -6,3 +6,5 @@
 2. Install dependencies:
    ```bash
    npm install react-youtube react-router-dom styled-components
+Set Up Routing:
+Use react-router-dom to structure routes (e.g., Home, Search, Player).
