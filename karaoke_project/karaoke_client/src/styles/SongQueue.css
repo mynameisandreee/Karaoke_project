@@ -1,0 +1,66 @@
+.songQueue {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.queueTitle {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.queueList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.queueItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.queueItem:last-child {
+    border-bottom: none;
+}
+
+.songInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.songTitle {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.songArtist {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.removeButton {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.removeButton:hover {
+    background-color: #c82333;
+}
+
+.noSongs {
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+}
